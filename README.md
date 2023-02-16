@@ -9,4 +9,4 @@ Add in your env
 And add LanserElasticServiceProvider into you config\app.php to section providers
 
 after that you can use Elastic client like
-# $client = app(MyElasticConnect::class);
+# $client = app(ElasticConnect::class);
