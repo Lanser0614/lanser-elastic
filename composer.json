@@ -1,0 +1,28 @@
+{
+    "name": "lanser/elastic",
+    "description": "Elastic",
+    "require": {
+        "php": "^8.0",
+        "elasticsearch/elasticsearch": "^8.6",
+        "illuminate/console": "^9.21|^10.0",
+        "illuminate/contracts": "^9.21|^10.0",
+        "illuminate/database": "^9.21|^10.0",
+        "illuminate/support": "^9.21|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lanser\\Elastic\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lanser",
+            "email": "a.doniyor@aliftech.uz"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
