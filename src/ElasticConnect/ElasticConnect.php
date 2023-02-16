@@ -15,8 +15,8 @@ class ElasticConnect
     public function __construct()
     {
         $this->client = ClientBuilder::create()
-            ->setHosts(config('elastic.hosts'))
-            ->setBasicAuthentication(config('elastic.username'), config('elastic.password'))
+            ->setHosts([env('ELASTIC_HOST')])
+            ->setBasicAuthentication(env('ELASTIC_USER'), env('ELASTIC_PASSWORD'))
             ->build();
     }
 
