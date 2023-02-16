@@ -1,6 +1,6 @@
 # lanser-elastic
 
-# composer require lanser/elastic
+# composer require lanser/elastic:dev-main
 Add in your env
 # ELASTIC_HOST=
 # ELASTIC_USER=
