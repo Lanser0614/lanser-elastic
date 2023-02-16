@@ -1,6 +1,9 @@
 {
     "name": "lanser/elastic",
+    "type": "library",
+    "license": "Apache-2.0",
     "description": "Elastic",
+    "minimum-stability": "stable",
     "require": {
         "php": "^8.0",
         "elasticsearch/elasticsearch": "^8.6",
